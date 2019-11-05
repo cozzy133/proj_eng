@@ -6,7 +6,7 @@
 -	Week 6 (14th October – 20th October)
 
 ## **Tasks**
--	Product Order
+-	Hardware Order
 -	Project Research
 
 ## **Reflection**
