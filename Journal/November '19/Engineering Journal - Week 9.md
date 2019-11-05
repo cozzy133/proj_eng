@@ -6,7 +6,7 @@
 -	Week 9 (4th November – 10th November)
 
 ## **Tasks**
--	Assigned by supervisor (Brian): Read through Machine Learning resource (Access here)
+-	Assigned by supervisor (Brian): Read through Machine Learning resource [Access here](https://github.com/cozzy133/proj_eng/blob/master/Journal/November%20'19/Machine%20Learning.pdf).
 -	Assigned by supervisor (Brian): Learn about TensorFlow using examples and resources online to demo basic use for next week.
 -	Collect 3D parts ordered previously and construct project hardware.
 -	Fine tuning facial recognition script to record user and compare face with database.
