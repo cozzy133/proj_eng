@@ -1,32 +1,32 @@
 
-**ENGINEERING JOURNAL - Padraig Ó Cosgora**
+#**ENGINEERING JOURNAL - Padraig Ó Cosgora**
 ----------------------------------------------------------------------
 
-**Date**
+##**Date**
 -	Week 6 (14th October – 20th October)
 
-**Tasks**
+##**Tasks**
 -	Product Order
 -	Project Research
 
-**Reflection**
+##**Reflection**
 -	Successfully showcased project research to my supervisor (Brian) and ordered the required corresponding parts that week.
 -	researched function of the project, mainly facial recognition. 
 
 
-**_Issues:_**
+##**_Issues:_**
 
-**Hardware:**
+###**Hardware:**
 -	None. Yet to arrive.
 
-**Software:**
+###**Software:**
 -	None. Not yet started until hardware arrives.
 
-**_Solutions_**
+##**_Solutions_**
 
-**Hardware:**
+###**Hardware:**
 -	None.
 
 
-**Software:**
+###**Software:**
 -	None.
