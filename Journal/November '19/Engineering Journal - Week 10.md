@@ -6,26 +6,24 @@
 -	Week 8 (11th November – 17th November)
 
 ## **Tasks**
--	Project Research (Getting Started with AI on Jetson Nano - online course). Covering topics such as Image Classification & Image regression. 
--	Collect hardware order and set up board with operating system, libraries, frameworks and fine-tune camera.
+-	Jupyter Notebook server up and running. Sample "notebooks" currently being tested.
 
 ## **Reflection**
--	Successfully showcased project research to my supervisor (Brian) and completed sections of NVIDIA’s online resources.
--	Successfully set up Jetson Nano development board with libraries and frameworks to do facial recognition utilsing CSI-camera.
+-	Successfully installed Jetbot SD card image and got Jupyter Notebook up and running.
+- Successfully received hardware and built Jetbot + wired.
 
 ## **_Issues:_**
 
 ### **Hardware:**
--	Focusing CSI camera.
+-	OLED isn't booting up or displaying IP address as it should.
 
 ### **Software:**
--	None. Not yet started until hardware arrives.
+-	Currently running into issues initialising sample program. 
 
 ## **_Solutions_**
 
 ### **Hardware:**
--	Fine-tuning focus via screwing external field of view of CSI camera.
-
+-	WIP.
 
 ### **Software:**
--	None.
+-	WIP.
