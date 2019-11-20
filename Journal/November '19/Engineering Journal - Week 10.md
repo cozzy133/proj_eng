@@ -3,7 +3,7 @@
 ----------------------------------------------------------------------
 
 ## **Date**
--	Week 8 (11th November – 17th November)
+-	Week 10 (11th November – 17th November)
 
 ## **Tasks**
 -	Jupyter Notebook server up and running. Sample "notebooks" currently being tested.
