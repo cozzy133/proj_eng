@@ -23,7 +23,7 @@ while True:
             try:
                 #Query stock information, price etc.
                 resp = requests.get(
-                    url="https://www.alphavantage.co/query?function=BATCH_STOCK_QUOTES&symbols={}&apikey=ERO5XRBZNWQ9E608".format(
+                    url="https://www.alphavantage.co/query?function=BATCH_STOCK_QUOTES&symbols={}&apikey=****************".format(
                         ticker), headers=headers)
                 data = resp.json()
                 #print(data)
@@ -33,7 +33,7 @@ while True:
 
                 #Query for the stock name, for refined news queries.
                 resp = requests.get(
-                    url="https://www.alphavantage.co/query?function=SYMBOL_SEARCH&keywords={}&apikey=ERO5XRBZNWQ9E608".format(
+                    url="https://www.alphavantage.co/query?function=SYMBOL_SEARCH&keywords={}&apikey=*****************".format(
                         ticker), headers=headers)
                 data = resp.json()
                 #print(data)
@@ -43,11 +43,11 @@ while True:
 
                 #Query for news
                 resp = requests.get(
-                    url='https://newsapi.org/v2/everything?'
-       'q={}&'
-       'from=2019-11-04' # This is the OLDEST date an article can be from, free edition will let you have a month
-       'sortBy=popularity&' #Filter by popularity
-       'apiKey=fe00115ceffe418988616191b03e1c74'.format(
+                        url='https://newsapi.org/v2/everything?'
+                        'q={}&'
+                        'from=2019-11-04' # This is the OLDEST date an article can be from, free edition will let you have a month
+                        'sortBy=popularity&' #Filter by popularity
+                        'apiKey=***********************'.format(
                         ticker + " " + companyName), headers=headers) #Adds the company name in full after the ticker, for more accurate news queries
                 data = resp.json()
                 #print(data)
@@ -64,6 +64,7 @@ while True:
                     #Checks to ensure news is relevant, and contains or mentions the stock
                     if data.count("stock") > 0 or data.count("shares") > 0:
                         if data.count(companyTicker) > 0 or data.count(companyName) > 0:
+                            # logically NLP semantic analysis should take place here 
                             positive = positive + data.count("buy")
                             positive = positive + data.count("purchase")
                             positive = positive + data.count("pay attention")
@@ -102,7 +103,7 @@ while True:
                 print("\n\nPositive Analysis: " + str(positive) + ",\nNegative Analysis: " + str(negative) + ",\nHold Analysis: " + str(hold)) 
                 print("\n\nStock Analysis: " + companyTicker + ",\nPrice: " + stockPrice + ",\nAggregate: " + aggregate + ",\nTimestamp: " + str(int(time.time())) + "\n") #unix timestamp
 
-                # Prevent throttling. Can make one request per 172.8 seconds as we have 500 requests a day.
+                # Prevent throttling. Can make one request per 172.8 seconds as I have 500 requests a day.
                 time.sleep(10) 
             except Exception as e:
                 print("Error: " + str(e))
