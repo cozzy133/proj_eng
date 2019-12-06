@@ -15,3 +15,7 @@
 ![Jetson Nano Inference Comparison](https://developer.nvidia.com/sites/default/files/akamai/embedded/images/metrics/jetson_nano-deep_learning_inference_perf-chart.png)
 
 <a href="https://ibb.co/vDxr9NY"><img src="https://i.ibb.co/6NRpQKB/Screenshot-from-2019-12-06-16-32-18.png" alt="Screenshot-from-2019-12-06-16-32-18" border="0"></a>
+
+[Jetson Inference Github](https://github.com/dusty-nv/jetson-inference)
+
+[Deploying Deep Learning](https://github.com/dusty-nv/jetson-inference#two-days-to-a-demo-digits)
