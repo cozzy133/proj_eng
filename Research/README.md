@@ -12,5 +12,6 @@
 
 [Getting Started with AI on Jetson Nano](https://courses.nvidia.com/courses/course-v1%3ADLI%2BC-RX-02%2BV1/course/)
 
-
 ![Jetson Nano Inference Comparison](https://developer.nvidia.com/sites/default/files/akamai/embedded/images/metrics/jetson_nano-deep_learning_inference_perf-chart.png)
+
+![Jetson Nano Performace](https://ibb.co/vDxr9NY)
