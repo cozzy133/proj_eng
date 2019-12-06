@@ -1,5 +1,7 @@
 # Research Articles
 
+[Jetson Nano Developer Kit User Guide](https://wiki.52pi.com/images/6/6f/Jetson_Nano_Developer_Kit_User_Guide.pdf)
+
 [How to run TensorFlow Object Detection model on Jetson Nano](https://www.dlology.com/blog/how-to-run-tensorflow-object-detection-model-on-jetson-nano/)
 
 [Machine Learning for Humans🤖👶](https://medium.com/machine-learning-for-humans/why-machine-learning-matters-6164faf1df12)
