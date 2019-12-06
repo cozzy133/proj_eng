@@ -14,4 +14,4 @@
 
 ![Jetson Nano Inference Comparison](https://developer.nvidia.com/sites/default/files/akamai/embedded/images/metrics/jetson_nano-deep_learning_inference_perf-chart.png)
 
-![Jetson Nano Performace](https://cdn3.imggmi.com/uploads/2019/12/6/efbbae188de010e5a1d38ffcf8156814-full.png)
+<a href="https://ibb.co/vDxr9NY"><img src="https://i.ibb.co/6NRpQKB/Screenshot-from-2019-12-06-16-32-18.png" alt="Screenshot-from-2019-12-06-16-32-18" border="0"></a>
