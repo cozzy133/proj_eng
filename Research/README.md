@@ -19,3 +19,7 @@
 [Jetson Inference Github](https://github.com/dusty-nv/jetson-inference)
 
 [Deploying Deep Learning](https://github.com/dusty-nv/jetson-inference#two-days-to-a-demo-digits)
+
+[Deep Learning Models](https://blogs.nvidia.com/wp-content/uploads/2016/08/ai_difference_between_deep_learning_training_inference.jpg)
+
+[What’s the Difference Between Artificial Intelligence, Machine Learning and Deep Learning?](https://blogs.nvidia.com/blog/2016/07/29/whats-difference-artificial-intelligence-machine-learning-deep-learning-ai/)
