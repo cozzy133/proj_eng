@@ -7,6 +7,7 @@
 
 ## **Tasks**
 -	Deploy ML Obstacle detection and following example from Jupyter Notebook.
+- Started working on manual Portfolio monitoring news sentiment analyser.
 
 ## **Reflection**
 -	Successfully deployed ML Obstacle detection and object following example from Jupyter Notebook.
