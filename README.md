@@ -1,4 +1,4 @@
-# AI Companion
+### AI Companion
 Software Engineering &amp; Test
 
 ## Overview
@@ -8,9 +8,9 @@ The AI Companion Robot is a home-assistant robot that can move across floors, ca
 # Obstacle Avoidance 
 Train a machine learning model to recognise when it is blocked or free to move forward, while operating around the house (or just in a single room to begin with).
 
-#Object Detection 
+# Object Detection 
 Detect objects(including people) and follow them.
 
-#Facial Recognition 
+# Facial Recognition 
 Recognise faces, store them in a local database and compare all new faces to the old faces in the database. 
 
