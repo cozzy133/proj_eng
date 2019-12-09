@@ -25,3 +25,5 @@
 [What’s the Difference Between Artificial Intelligence, Machine Learning and Deep Learning?](https://blogs.nvidia.com/blog/2016/07/29/whats-difference-artificial-intelligence-machine-learning-deep-learning-ai/)
 
 [Deploy a deep learning model for inference with GPU](https://docs.microsoft.com/en-us/azure/machine-learning/service/how-to-deploy-inferencing-gpus)
+
+[Darknet YOLOv3 on Jetson Nano](https://ai4sig.org/2019/06/jetson-nano-darknet-yolov3/)
