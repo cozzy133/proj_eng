@@ -3,17 +3,13 @@
 ----------------------------------------------------------------------
 
 ## **Date**
--	Week 9 (4th November – 10th November)
+-	Week 9 (2nd December – 8th December)
 
 ## **Tasks**
--	Assigned by supervisor (Brian): Read through Machine Learning resource (Access here)
--	Assigned by supervisor (Brian): Learn about TensorFlow using examples and resources online to demo basic use for next week.
--	Collect 3D parts ordered previously and construct project hardware.
--	Fine tuning facial recognition script to record user and compare face with database.
+- Preparing project demonstration. Creating documents to hand out and understanding example codes used for research purposes.
 
 ## **Reflection**
--	WIP.
--	Fine-tuned facial recognition script (utilizing OpenCV) to recognize and store faces locally and counts the amount of times users enter camera frame.
+- Should have trained a model on Room 507 GMIT to display collision avoidance and object following examples.
 
 ## **_Issues:_**
 
