@@ -3,7 +3,7 @@
 ----------------------------------------------------------------------
 
 ## **Date**
--	Week 9 (2nd December – 8th December)
+-	Week 13 (2nd December – 8th December)
 
 ## **Tasks**
 - Preparing project demonstration. Creating documents to hand out and understanding example codes used for research purposes.
@@ -14,7 +14,7 @@
 ## **_Issues:_**
 
 ### **Hardware:**
--	None.
+-	When running off Battery pack the Jetson Nano is still unreliable while running Object detection & following model.
 
 ### **Software:**
 -	None. 
