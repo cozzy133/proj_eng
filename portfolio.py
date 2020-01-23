@@ -23,7 +23,7 @@ while True:
             try:
                 #Query stock information, price etc.
                 resp = requests.get(
-                    url="https://www.alphavantage.co/query?function=BATCH_STOCK_QUOTES&symbols={}&apikey=****************".format(
+                    url="https://www.alphavantage.co/query?function=BATCH_STOCK_QUOTES&symbols={}&apikey=ERO5XRBZNWQ9E608".format(
                         ticker), headers=headers)
                 data = resp.json()
                 #print(data)
@@ -33,7 +33,7 @@ while True:
 
                 #Query for the stock name, for refined news queries.
                 resp = requests.get(
-                    url="https://www.alphavantage.co/query?function=SYMBOL_SEARCH&keywords={}&apikey=*****************".format(
+                    url="https://www.alphavantage.co/query?function=SYMBOL_SEARCH&keywords={}&apikey=ERO5XRBZNWQ9E608".format(
                         ticker), headers=headers)
                 data = resp.json()
                 #print(data)
