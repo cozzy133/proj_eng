@@ -3,7 +3,7 @@
 ----------------------------------------------------------------------
 
 ## **Date**
--	Week 7 (16th December – 22nd December)
+-	Week 15 (16th December – 22nd December)
 
 ## **Tasks**
 -	3D printed parts order
