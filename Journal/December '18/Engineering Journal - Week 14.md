@@ -3,7 +3,7 @@
 ----------------------------------------------------------------------
 
 ## **Date**
--	Week 6 (9th December – 15th December)
+-	Week 14 (9th December – 15th December)
 
 ## **Tasks**
 -	Hardware Order
