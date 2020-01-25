@@ -3,7 +3,7 @@
 ----------------------------------------------------------------------
 
 ## **Date**
--	Week 7 (21st October – 27th October)
+-	Week 7 (16th December – 22nd December)
 
 ## **Tasks**
 -	3D printed parts order
