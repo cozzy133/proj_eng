@@ -3,7 +3,7 @@
 ----------------------------------------------------------------------
 
 ## **Date**
--	Week 18 (6th December – 12th January)
+-	Week 18 (6th January – 12th January)
 
 ## **Tasks**
 - Christmas Holidays
