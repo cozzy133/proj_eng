@@ -27,3 +27,8 @@
 [Deploy a deep learning model for inference with GPU](https://docs.microsoft.com/en-us/azure/machine-learning/service/how-to-deploy-inferencing-gpus)
 
 [Darknet YOLOv3 on Jetson Nano](https://ai4sig.org/2019/06/jetson-nano-darknet-yolov3/)
+
+[Deep Learning with Python - François Chollet](https://github.com/letspython3x/Books/blob/master/Deep%20Learning%20with%20Python.pdf)
+
+[Natural Language Processing with Machine Learning](https://www.educative.io/courses/natural-language-processing-ml)
+
