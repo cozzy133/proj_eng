@@ -5,6 +5,26 @@ import datetime
 from shutil import copyfile
 import os
 
+def extract_values(obj, key):
+    """Pull all values of specified key from nested JSON."""
+    arr = []
+
+    def extract(obj, arr, key):
+        """Recursively search for values of key in JSON tree."""
+        if isinstance(obj, dict):
+            for k, v in obj.items():
+                if isinstance(v, (dict, list)):
+                    extract(v, arr, key)
+                elif k == key:
+                    arr.append(v)
+        elif isinstance(obj, list):
+            for item in obj:
+                extract(item, arr, key)
+        return arr
+
+    results = extract(obj, arr, key)
+    return results
+
 parser = argparse.ArgumentParser(description="A tutorial of argparse!")
 parser.add_argument("--symbol", required=True, type=str, help="The companies symbol, i.e INTC")
 args = parser.parse_args()
@@ -27,11 +47,13 @@ while True:
                 args.symbol), headers=headers)
         data = resp.json()
         print("Data: " + str(data))
-        companyTicker = data['Meta Data'][0]['2. Symbol']
+        companyTicker = data['Meta Data']['2. Symbol']
         print(companyTicker)
-        stockPrice = data['Time Series (5min)'][0]['4. close']
-        print(stockPrice)
-        #time.sleep(20)
+        #print(data[1]["4. close"])
+        stockPrice = extract_values(data, "4. close")
+        #stockPrice = data['Time Series (5min)']['4. close']
+        print(stockPrice[0])
+        time.sleep(20)
         # Query for the stock name, for refined news queries.
         resp = requests.get(
             url="https://www.alphavantage.co/query?function=SYMBOL_SEARCH&keywords={}&apikey=ERO5XRBZNWQ9E608".format(
@@ -114,3 +136,4 @@ while True:
     except Exception as e:
         print("Error: " + str(e))
         time.sleep(10)
+
