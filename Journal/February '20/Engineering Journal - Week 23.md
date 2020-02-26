@@ -7,10 +7,11 @@
 
 ## **Tasks**
 -	Build ML model that predicts stock performance on certain stocks based on the latest (diverse) news
-- Create application 
+- Create NodeJS application 
 
 ## **Reflection**
--	
+-	Completed multiple tutorials learning how to generate a NTLK (Natural Language Toolkit) Naive Bayes ML model.
+- Requires fine-tuning
 
 ## **_Issues:_**
 
