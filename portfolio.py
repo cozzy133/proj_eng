@@ -13,9 +13,9 @@ parser.add_argument("--symbol", required=True, type=str, help="The companies sym
 
 while True:
     articleCount = 0
+
     headers = {
-        'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 '
-                      'Safari/537.36 '
+        'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36'
     }
 
     with open("stocks.txt", "r") as ins:
@@ -30,17 +30,14 @@ while True:
             try:
                 #Query stock information, price etc.
                 resp = requests.get(
-                    url="https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol={}&apikey=ERO5XRBZNWQ9E608".format(
-                        line), headers=headers)
-                resp1 = requests.get("https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol={0:s}&apikey=ERO5XRBZNWQ9E608".format(line))
-                print("https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol={0:s}&apikey=ERO5XRBZNWQ9E608".format(line))
-                print("First HTTP call: " + str(resp1))
+                    url="https://www.alphavantage.co/query?function=BATCH_STOCK_QUOTES&symbols={}&apikey=ERO5XRBZNWQ9E608".format(
+                        ticker), headers=headers)
                 data = resp.json()
-                print("Data: " + str(data))
-                time.sleep(20)
-                companyTicker = data['Meta Data'][0]['2. Symbol']
-                print(companyTicker)
-                #stockPrice = data['Time Series (Daily)'][0]['2. price']
+                #print(data)
+                #time.sleep(20)
+                companyTicker = data['Stock Quotes'][0]['1. symbol']
+                stockPrice = data['Stock Quotes'][0]['2. price']
+
 
                 #Query for the stock name, for refined news queries.
                 resp = requests.get(
@@ -52,18 +49,29 @@ while True:
                 companyName = data['bestMatches'][0]['2. name']
                 print("Company Name: " + companyName)
 
+                #resp = requests.get(
+                #    url="https://www.alphavantage.co/query?function=GLOBAL_QUOTE&symbol={}&apikey=ERO5XRBZNWQ9E608".format(
+                #       ticker), headers=headers)
+                resp = requests.get(
+                    url="https://www.alphavantage.co/query?function=GLOBAL_QUOTE&symbol=INTC&apikey=ERO5XRBZNWQ9E608", headers=headers)
+                data = resp.json()
+                #print(data)
+                #time.sleep(20)
+                companyTicker = data['Global Quote']['01. symbol']
+                stockPrice = data['Global Quote']['05. price']
+
                 #Query for news
                 resp = requests.get(
                         url='https://newsapi.org/v2/everything?'
                         'q={}&'
-                        'from=2020-02-02' # This is the OLDEST date an article can be from, free edition will let you have a month
+                        'from=2019-11-04' # This is the OLDEST date an article can be from, free edition will let you have a month
                         'sortBy=popularity&' #Filter by popularity
                         'apiKey=677a8a1783e242b08e908b272fed2e4f'.format(
                         ticker + " " + companyName), headers=headers) #Adds the company name in full after the ticker, for more accurate news queries
                 print(resp)
                 data = resp.json()
-                #print(data)
-                #time.sleep(20)
+                print(data)
+                time.sleep(20)
 
                 for article in data['articles']:
                     articleCount = articleCount + 1
