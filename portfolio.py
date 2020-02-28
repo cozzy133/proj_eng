@@ -3,6 +3,7 @@ import time
 import argparse
 import sys
 import datetime
+import passwords
 from shutil import copyfile
 import os
 
@@ -46,8 +47,8 @@ while True:
     try:
         # Query stock information, price etc.
         resp = requests.get(
-            url="https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol={}&apikey=ERO5XRBZNWQ9E608".format(
-                args.symbol), headers=headers)
+            url="https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol={}&apikey={}".format(
+                args.symbol, passwords.alphaAPI), headers=headers)
         data = resp.json()
         # print("Data: " + str(data))
         companyTicker = data['Meta Data']['2. Symbol']
@@ -58,8 +59,8 @@ while True:
         # time.sleep(20)
         # Query for the stock name, for refined news queries.
         resp = requests.get(
-            url="https://www.alphavantage.co/query?function=SYMBOL_SEARCH&keywords={}&apikey=ERO5XRBZNWQ9E608".format(
-                args.symbol), headers=headers)
+            url="https://www.alphavantage.co/query?function=SYMBOL_SEARCH&keywords={}&apikey={}".format(
+                args.symbol, passwords.alphaAPI), headers=headers)
         data = resp.json()
         # print(data)
         # time.sleep(20)
@@ -76,8 +77,8 @@ while True:
                 'q={}&'
                 'from={}'  # This is the OLDEST date an article can be from, free edition will let you have a month
                 'sortBy=popularity&'  # Filter by popularity
-                'apiKey=677a8a1783e242b08e908b272fed2e4f'.format(
-                args.symbol + " " + companyName, today_minus_date + str(yesterday)),
+                'apiKey={}'.format(
+                args.symbol + " " + companyName, today_minus_date + str(yesterday), passwords.newsAPI),
             headers=headers)  # Adds the company name in full after the ticker, for more accurate news queries
         data = resp.json()
         # print(data)
