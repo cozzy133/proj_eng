@@ -66,11 +66,14 @@ while True:
         # time.sleep(20)
         companyName = data['bestMatches'][0]['2. name']
         print("Company Name: " + companyName)
-        x = datetime.datetime.now()
-        today = str(x)[0:10]
-        today_minus_date = today[0:-2]
-        yesterday = int(today[-2:]) - 1
-        print(today_minus_date + str(yesterday))
+        today = datetime.date.today()
+
+        #today = str(x)[0:10]
+        #today_minus_date = today[0:-2]
+        #yesterday = int(today[-2:]) - 1
+        #print(today_minus_date + str(yesterday))
+        yesterday = today - datetime.timedelta(days=1)
+        print(yesterday)
         # Query for news
         resp = requests.get(
             url='https://newsapi.org/v2/everything?'
@@ -78,7 +81,7 @@ while True:
                 'from={}'  # This is the OLDEST date an article can be from, free edition will let you have a month
                 'sortBy=popularity&'  # Filter by popularity
                 'apiKey={}'.format(
-                args.symbol + " " + companyName, today_minus_date + str(yesterday), passwords.newsAPI),
+                args.symbol + " " + companyName, yesterday, passwords.newsAPI),
             headers=headers)  # Adds the company name in full after the ticker, for more accurate news queries
         data = resp.json()
         # print(data)
@@ -137,7 +140,7 @@ while True:
             "\n\nStock Analysis: " + str(companyTicker) + ",\nPrice: " + str(stockPrice[0]) + ",\nAggregate: " + str(
                 aggregate) + ",\nTimestamp: " + str(
                 int(time.time())) + "\n")  # unix timestamp
-        print("Time : " + str(x))
+        print("Time : " + str(datetime.datetime.now()))
 
         # Prevent throttling. Can make one request per 172.8 seconds as I have 500 requests a day.
         # time.sleep(10)
