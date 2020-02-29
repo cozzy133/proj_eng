@@ -4,9 +4,43 @@ import argparse
 import sys
 import datetime
 import passwords
-from shutil import copyfile
-import os
+from nltk.sentiment.vader import SentimentIntensityAnalyzer
 
+# New key words and values
+key_words = {
+    'crushes': 10,
+    'buy': 10,
+    'beats': 5,
+    'purchase': 10,
+    'pay attention': 5,
+    'should invest': 20,
+    'long': 15,
+    'outperform': 20,
+    'upgrade': 15,
+    'increased target': 20,
+    'bullish': 10,
+    'bull': 5,
+    'hold': -5,
+    'holds': -5,
+    'misses': -10,
+    'sell': -20,
+    'avoid': -10,
+    'should not invest': -50,
+    'short': -20,
+    'downgrade': -10,
+    'trouble': -10,
+    'decreased target': -20,
+    'bearish': -10,
+    'bear': -10,
+    'sink': -30,
+    'falls': -100,
+}
+
+# Instantiate the sentiment intensity analyzer with the existing lexicon
+vader = SentimentIntensityAnalyzer()
+
+# Update the lexicon
+vader.lexicon.update(key_words)
 
 def extract_values(obj, key):
     """Pull all values of specified key from nested JSON."""
@@ -67,11 +101,6 @@ while True:
         companyName = data['bestMatches'][0]['2. name']
         print("Company Name: " + companyName)
         today = datetime.date.today()
-
-        #today = str(x)[0:10]
-        #today_minus_date = today[0:-2]
-        #yesterday = int(today[-2:]) - 1
-        #print(today_minus_date + str(yesterday))
         yesterday = today - datetime.timedelta(days=1)
         print(yesterday)
         # Query for news
