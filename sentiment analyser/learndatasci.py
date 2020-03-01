@@ -11,6 +11,8 @@ from nltk.tokenize import word_tokenize, RegexpTokenizer
 from nltk.corpus import stopwords
 import praw
 
+# a lot more work to be done here
+
 
 def process_text(headlines):
     tokens = []
