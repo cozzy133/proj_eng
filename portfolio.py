@@ -6,6 +6,8 @@ import datetime
 import passwords
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
 
+date_sentiments = {}
+
 # New key words and values
 key_words = {
     'crushes': 10,
@@ -41,6 +43,7 @@ vader = SentimentIntensityAnalyzer()
 
 # Update the lexicon
 vader.lexicon.update(key_words)
+
 
 def extract_values(obj, key):
     """Pull all values of specified key from nested JSON."""
@@ -127,6 +130,9 @@ while True:
             # Checks to ensure news is relevant, and contains or mentions the stock
             if data.count("stock") > 0 or data.count("shares") > 0:
                 if data.count(companyTicker) > 0 or data.count(companyName) > 0:
+                    sentiment = vader.polarity_scores(data)['compound']
+                    print("sentiment = " + str(sentiment))
+                    # date_sentiments.setdefault(date, []).append(sentiment)
                     # logically NLP semantic analysis should take place here
                     positive = positive + data.count("buy")
                     positive = positive + data.count("purchase")
