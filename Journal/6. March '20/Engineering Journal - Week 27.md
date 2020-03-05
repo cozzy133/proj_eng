@@ -6,7 +6,7 @@
 -	Week 27 (9th March – 15th March)
 
 ## **Tasks**
--
+- incorporate AWS into project with nodejs hosted webapp
 
 ## **Reflection**
 -
