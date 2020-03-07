@@ -32,3 +32,6 @@
 
 [Natural Language Processing with Machine Learning](https://www.educative.io/courses/natural-language-processing-ml)
 
+[Stock prediction using Twitter](https://towardsdatascience.com/stock-prediction-using-twitter-e432b35e14bd)
+
+
