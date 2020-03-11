@@ -9,7 +9,9 @@
 - incorporate AWS into project with nodejs hosted webapp
 
 ## **Reflection**
--
+- Now utilising AWS Elastic Beanstalk to host NodeJS web application
+- Incorporated MQTT to communicate between development board and web application
+- Utilising DynamoDB to offer login options to user
 
 ## **_Issues:_**
 
