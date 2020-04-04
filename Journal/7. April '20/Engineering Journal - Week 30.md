@@ -7,6 +7,7 @@
 
 ## **Tasks**
 - adding new features to nodejs website
+- may incorporate flask to better utilise python code of jetbot
 
 ## **Reflection**
 -
