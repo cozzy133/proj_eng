@@ -35,3 +35,5 @@
 [Stock prediction using Twitter](https://towardsdatascience.com/stock-prediction-using-twitter-e432b35e14bd)
 
 [Jump Out of the Jupyter Notebook with nbconvert](https://towardsdatascience.com/jump-out-of-the-jupyter-notebook-with-nbconvert-7d4748960702)
+
+[AI FOR MAKERS – LEARN WITH JETBOT](https://info.nvidia.com/ai-for-makers-learn-with-jetbot-reg-page.html?nvid=nv-int-84114)
