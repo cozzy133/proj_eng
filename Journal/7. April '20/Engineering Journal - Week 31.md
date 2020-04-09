@@ -9,7 +9,7 @@
 - working on flask app controlling robot
 
 ## **Reflection**
--
+- got flask web server controlling robot
 
 ## **_Issues:_**
 
