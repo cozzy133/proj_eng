@@ -7,6 +7,7 @@
 
 ## **Tasks**
 - working on flask app controlling robot
+- adding sensor communication to flask app
 
 ## **Reflection**
 - got flask web server controlling robot
