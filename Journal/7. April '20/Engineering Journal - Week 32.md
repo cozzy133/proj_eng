@@ -6,7 +6,8 @@
 -	Week 32 (13th April – 19th April)
 
 ## **Tasks**
--
+- writing report 
+- finalising poster
 
 ## **Reflection**
 -
