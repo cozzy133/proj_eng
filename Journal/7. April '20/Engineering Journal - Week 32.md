@@ -8,6 +8,7 @@
 ## **Tasks**
 - writing report 
 - finalising poster
+- working on project presentation
 
 ## **Reflection**
 -
