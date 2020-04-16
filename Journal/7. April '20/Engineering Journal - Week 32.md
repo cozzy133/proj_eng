@@ -11,7 +11,7 @@
 - working on project presentation
 
 ## **Reflection**
--
+- poster finalised
 
 ## **_Issues:_**
 
