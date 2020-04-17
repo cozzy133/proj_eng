@@ -12,6 +12,7 @@
 
 ## **Reflection**
 - poster finalised
+- first draft of presentation completed
 
 ## **_Issues:_**
 
