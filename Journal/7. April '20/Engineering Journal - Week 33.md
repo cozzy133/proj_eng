@@ -7,6 +7,7 @@
 
 ## **Tasks**
 - working on project presentation 
+- final additions to project poster
 
 ## **Reflection**
 -
