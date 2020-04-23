@@ -24,7 +24,7 @@
 ## **_Solutions_**
 
 ### **Hardware:**
--	
+-	Running into issues utilising single input CSI camera (for ML) as dashboard camera also
 
 
 ### **Software:**
