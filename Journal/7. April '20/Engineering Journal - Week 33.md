@@ -9,6 +9,7 @@
 - working on project presentation 
 - final additions to project poster
 - working on python script sentiment analysis
+- working on project report
 
 ## **Reflection**
 -
