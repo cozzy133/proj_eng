@@ -7,6 +7,7 @@
 
 ## **Tasks**
 - working on adding extra sensors to jetbot to interact with webapp
+- working on poster and video
 
 ## **Reflection**
 -
