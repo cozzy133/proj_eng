@@ -10,7 +10,7 @@
 - working on poster and video
 
 ## **Reflection**
--
+- presentation and poster finished
 
 ## **_Issues:_**
 
