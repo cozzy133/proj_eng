@@ -15,7 +15,7 @@
 ## **_Issues:_**
 
 ### **Hardware:**
--	
+-	The USB port seems to disable when the DC power port is used (will not re-enable)
 
 ### **Software:**
 -	
