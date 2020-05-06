@@ -21,6 +21,7 @@
 -	
 
 ## **_Solutions_**
+- reflasking sd card seems to re-enable usb port for power ( this is a short term solution however)
 
 ### **Hardware:**
 -	
