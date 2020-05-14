@@ -1,26 +1,28 @@
 <p align="center">
   <img width="200" height="200" src="/Pictures/gmit.png/">
+  <h4 align="left">BEng in Software and Electronic Engineering<br><br>
+  Student Name: Padraig O Cosgora<br>
+  Student Number: G00311302<br>
+  Supervisor: Brian O’ Shea<br>
+  Project Engineering<br>
+  Year: 4
+  </h4>
 </p>
 
+<br>
 
-<h1 align="center" ><br>Final Year Project<br></h1>
+<p align="center">
+<h1>Final Year Project : </h1>
+<img width="200" height="200" src="/Pictures/logo.png/">
+</p>
 
 <br>
-<br>
+
 <p align="center">
   <img width="200" height="200" src="/Pictures/aiCompanion.jpg/">
 </p>
-<p align="center">
-  <img width="200" height="200" src="/Pictures/logo.png/">
-</p>
 
-<h4 align="left">BEng in Software and Electronic Engineering<br><br>
-Student Name: Padraig O Cosgora<br>
-Student Number: G00311302<br>
-Supervisor: Brian O’ Shea<br>
-Project Engineering<br>
-Year: 4<br>
-</h4>
+
 
 <br>
 
@@ -57,10 +59,9 @@ The idea is to build upon the increasing success of home assistants and automate
 
 <h2><b>Development Tools</b></h2>
 <p align="center">
-<img width="250" height="150" src="/Pictures/logos/pycharm.png/">
+<img width="200" height="150" src="/Pictures/logos/pycharm.png/">
 <img width="150" height="150" src="/Pictures/logos/Jupyter.svg/">
-<img width="150" height="150" src="/Pictures/logos/cloudmqtt.jpg/">
-<img width="250" height="150" src="/Pictures/logos/azure.png/">
+<img width="200" height="150" src="/Pictures/logos/azure.png/">
 <p>
 <br>
 <h2><br>Technologies - Software & Hardware</b></h2>
@@ -68,7 +69,7 @@ The idea is to build upon the increasing success of home assistants and automate
 <img width="150" height="150" src="/Pictures/logos/flask.png/">
 <img width="150" height="150" src="/Pictures/logos/python.png/">
 <img width="150" height="150" src="/Pictures/logos/cplusplus.png/">
-<img width="250" height="150" src="/Pictures/logos/3piece.jpg/">
+<img width="150" height="150" src="/Pictures/logos/3piece.jpg/">
 <img width="150" height="150" src="/Pictures/logos/mqtt.png/">
 <p>
 
