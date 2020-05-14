@@ -10,15 +10,13 @@
 
 <br>
 
-<p align="center">
-  <h4 align="left">BEng in Software and Electronic Engineering<br><br>
+<h4 align="center">BEng in Software and Electronic Engineering<br><br>
 Student Name: Padraig O Cosgora<br>
 Student Number: G00311302<br>
 Supervisor: Brian O’ Shea<br>
 Project Engineering<br>
 Year: 4<br>
 </h4>
-</p>
 
 <br>
 
