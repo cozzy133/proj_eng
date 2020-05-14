@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <title>About Flask</title>
+   </head>
+   <body>
+      {% extends "template.html" %}
+      {% block content %}
+<div style="padding-left: 50px; padding-right: 50px">
+          <div class="info">
+              <div class="info2" style="text-align: center;"><strong>
+                  Overall Result</strong><br><br>{{ overall }}</div>
+              <br><div class="info2"  style="text-align: center;"><strong>
+                  Machine Learning Output</strong><br><br>{{ ML }}</div>
+          </div>
+<div>
+<ol class="ul">
+<!-- For loop logic of jinja template -->
+{%for i in range(0, lenPos)%}
+    <li class="ul2"><strong>Positive : </strong>{{Pos[i]}}</li>
+{%endfor%}
+</ol>
+</div>
+<div>
+<ol>
+<!-- For loop logic of jinja template -->
+{%for i in range(0, lenNeg)%}
+    <li><strong>Negative :</strong> {{Neg[i]}}</li>
+{%endfor%}
+</ol>
+</div>
+      {% endblock %}
+   </body>
+</html>

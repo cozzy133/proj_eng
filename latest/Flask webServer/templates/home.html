@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <title>AI Companion</title>
+   </head>
+   <body>
+      {% extends "template.html" %}
+      {% block content %}
+          <p style="text-align:center;"><img src="{{ url_for('static', filename='images/logo.png') }}" alt="Logo"></p>
+          <h2 class="subtitle">
+            Hi {{g.user.username}}.. Welcome to AI Companion!
+          </h2>
+          <br><br>
+          <div id="parentContainer" style="width: 100%;">
+            <div id="chartContainer" style="float: left; width: 25%; height: 260px;"></div>
+        <div id="chartContainer1" style="float: left; width: 25%; height: 260px;"></div>
+              <div id="chartContainer2" style="float: right; width: 25%; height: 260px;"></div>
+        <img id="myImage" style="float:right; width: 25%; height: 260px;" src="{{ url_for('static',
+        filename='images/clear.png') }}" alt="Logo">
+        </div>
+      {% endblock %}
+   </body>
+</html>
