@@ -68,7 +68,7 @@ The idea is to build upon the increasing success of home assistants and automate
 <img width="150" height="150" src="/Pictures/logos/flask.png/">
 <img width="150" height="150" src="/Pictures/logos/python.png/">
 <img width="150" height="150" src="/Pictures/logos/cplusplus.png/">
-<img width="150" height="150" src="/Pictures/logos/3piece.jpg/">
+<img width="250" height="150" src="/Pictures/logos/3piece.jpg/">
 <img width="150" height="150" src="/Pictures/logos/mqtt.png/">
 <p>
 
