@@ -3,12 +3,12 @@
 </p>
 
 
-<h1 align="left" ><br>Final Year Project<br></h1>
+<h1 align="center" ><br>Final Year Project<br></h1>
 
 <br>
 <br>
 <p align="center">
-  <img width="200" height="200" src="/aiCompanion.JPG/">
+  <img width="200" height="200" src="/aiCompanion.jpg/">
 </p>
 <p align="center">
   <img width="200" height="200" src="/logo.png/">
