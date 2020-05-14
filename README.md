@@ -52,7 +52,7 @@ The idea is to build upon the increasing success of home assistants and automate
  
 <h2 align="left"><b>Architecture Diagram</b></h2>
 <p align="center">
-  <img width="200" height="200" src="/architecturalDiagram.png/">
+  <img src="/architecturalDiagram.png/">
 </p>
 
 <h2><b>Skills & Technologies</b></h2>
