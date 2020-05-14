@@ -22,7 +22,7 @@ Project Engineering<br>
 Year: 4<br>
 </h4>
 
-<p>&nbsp;</p>
+<br>
 
 <h2 align="left"><b>Introduction</b></h2>
 My motivation for choosing this project stems back to when I was at Intel and took part in a Kaggle 
@@ -50,7 +50,7 @@ The idea is to build upon the increasing success of home assistants and automate
  service. However, studies by Pew Research Center in 2019 found that 81% of people say the potential risks they face 
  because of data collection far outweigh the benefits of the service.
 
-<h4><b>Skills & Technologies</b></h4>
+<h2><b>Skills & Technologies</b></h2>
 
 <h4><b>Flask (Python web sever)</b></h4>   
 
