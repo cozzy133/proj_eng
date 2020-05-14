@@ -56,16 +56,19 @@ The idea is to build upon the increasing success of home assistants and automate
 </p>
 
 <h2><b>Development Tools</b></h2>
-<img width="200" height="200" src="/Pictures/logos/pycharm.png/">
-<img width="200" height="200" src="/Pictures/logos/Jupyter.svg/">
-<img width="200" height="200" src="/Pictures/logos/azure.png/">
+<p align="center">
+<img width="100" height="100" src="/Pictures/logos/pycharm.png/">
+<img width="100" height="100" src="/Pictures/logos/Jupyter.svg/">
+<img width="100" height="100" src="/Pictures/logos/azure.png/">
+<p>
 <br>
 <h2><br>Technologies - Software & Hardware</b></h2>
-<img width="200" height="200" src="/Pictures/logos/flask.png/">
-<img width="200" height="200" src="/Pictures/logos/python.png/">
-<img width="200" height="200" src="/Pictures/logos/cplusplus.png/">
-<img width="200" height="200" src="/Pictures/logos/3piece.jpg/">
-
+<p align="center">
+<img width="100" height="100" src="/Pictures/logos/flask.png/">
+<img width="100" height="100" src="/Pictures/logos/python.png/">
+<img width="100" height="100" src="/Pictures/logos/cplusplus.png/">
+<img width="100" height="100" src="/Pictures/logos/3piece.jpg/">
+<p>
 
 <h4><b>Flask (Python web sever)</b></h4>   
 
