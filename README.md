@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="200" height="200" src="/gmit.png/">
+  <img width="200" height="200" src="/Pictures/gmit.png/">
 </p>
 
 
@@ -8,10 +8,10 @@
 <br>
 <br>
 <p align="center">
-  <img width="200" height="200" src="/aiCompanion.jpg/">
+  <img width="200" height="200" src="/Pictures/aiCompanion.jpg/">
 </p>
 <p align="center">
-  <img width="200" height="200" src="/logo.png/">
+  <img width="200" height="200" src="/Pictures/logo.png/">
 </p>
 
 <h4 align="left">BEng in Software and Electronic Engineering<br><br>
@@ -52,7 +52,7 @@ The idea is to build upon the increasing success of home assistants and automate
  
 <h2 align="left"><b>Architecture Diagram</b></h2>
 <p align="center">
-  <img src="/architecturalDiagram.png/">
+  <img src="/Pictures/architecturalDiagram.png/">
 </p>
 
 <h2><b>Skills & Technologies</b></h2>
