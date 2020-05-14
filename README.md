@@ -1,26 +1,24 @@
-<p align="center">
-  <img width="200" height="200" src="/Pictures/gmit.png/">
-</p>
-
-
 <h1 align="center" ><br>Final Year Project<br></h1>
 
 <br>
-<br>
+
 <p align="center">
+  <img width="200" height="200" src="/Pictures/gmit.png/">
   <img width="200" height="200" src="/Pictures/aiCompanion.jpg/">
-</p>
-<p align="center">
   <img width="200" height="200" src="/Pictures/logo.png/">
 </p>
 
-<h4 align="left">BEng in Software and Electronic Engineering<br><br>
+<br>
+
+<p align="center">
+  <h4 align="left">BEng in Software and Electronic Engineering<br><br>
 Student Name: Padraig O Cosgora<br>
 Student Number: G00311302<br>
 Supervisor: Brian O’ Shea<br>
 Project Engineering<br>
 Year: 4<br>
 </h4>
+</p>
 
 <br>
 
