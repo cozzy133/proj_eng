@@ -59,6 +59,7 @@ The idea is to build upon the increasing success of home assistants and automate
 <p align="center">
 <img width="200" height="150" src="/Pictures/logos/pycharm.png/">
 <img width="150" height="150" src="/Pictures/logos/Jupyter.svg/">
+<img width="150" height="150" src="/Pictures/logos/cloudmqtt.jpg/">
 <img width="200" height="150" src="/Pictures/logos/azure.png/">
 <p>
 <br>
