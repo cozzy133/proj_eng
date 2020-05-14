@@ -49,6 +49,11 @@ The idea is to build upon the increasing success of home assistants and automate
  reason for deploying machine learning algorithms "on the edge" is that most ML algorithms are run online by a cloud 
  service. However, studies by Pew Research Center in 2019 found that 81% of people say the potential risks they face 
  because of data collection far outweigh the benefits of the service.
+ 
+<h2 align="left"><b>Architecture Diagram</b></h2>
+<p align="center">
+  <img width="200" height="200" src="/architecturalDiagram.png/">
+</p>
 
 <h2><b>Skills & Technologies</b></h2>
 
