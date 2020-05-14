@@ -57,9 +57,9 @@ The idea is to build upon the increasing success of home assistants and automate
 
 <h2><b>Development Tools</b></h2>
 <p align="center">
-<img width="150" height="150" src="/Pictures/logos/pycharm.png/">
+<img width="200" height="150" src="/Pictures/logos/pycharm.png/">
 <img width="150" height="150" src="/Pictures/logos/Jupyter.svg/">
-<img width="150" height="150" src="/Pictures/logos/azure.png/">
+<img width="200" height="150" src="/Pictures/logos/azure.png/">
 <p>
 <br>
 <h2><br>Technologies - Software & Hardware</b></h2>
