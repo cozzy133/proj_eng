@@ -55,7 +55,17 @@ The idea is to build upon the increasing success of home assistants and automate
   <img src="/Pictures/architecturalDiagram.png/">
 </p>
 
-<h2><b>Skills & Technologies</b></h2>
+<h2><b>Development Tools</b></h2>
+<img width="200" height="200" src="/Pictures/logos/pycharm.png/">
+<img width="200" height="200" src="/Pictures/logos/Jupyter.svg/">
+<img width="200" height="200" src="/Pictures/logos/azure.png/">
+<br>
+<h2><br>Technologies - Software & Hardware</b></h2>
+<img width="200" height="200" src="/Pictures/logos/flask.png/">
+<img width="200" height="200" src="/Pictures/logos/python.png/">
+<img width="200" height="200" src="/Pictures/logos/cplusplus.png/">
+<img width="200" height="200" src="/Pictures/logos/3piece.jpg/">
+
 
 <h4><b>Flask (Python web sever)</b></h4>   
 
